@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 )
 
@@ -17,5 +16,5 @@ func (h *handler) registerRoutes(mux *http.ServeMux) {
 }
 
 func (h *handler) HandleCreateOrder(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Hello air")
+
 }
