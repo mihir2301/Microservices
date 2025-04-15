@@ -11,7 +11,7 @@ message Order{
     repeated Item Items=4;
 }
 service OrderService{
-    rpc CreteOrder(CreateOrderRequest)returns(Order);
+    rpc CreateOrder(CreateOrderRequest)returns(Order);
 }
 
 message Item{

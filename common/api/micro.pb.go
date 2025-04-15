@@ -285,10 +285,9 @@ const file_api_micro_proto_rawDesc = "" +
 	"\n" +
 	"customerID\x18\x01 \x01(\tR\n" +
 	"customerID\x12,\n" +
-	"\x05Items\x18\x02 \x03(\v2\x16.api.ItemsWithQuantityR\x05Items2A\n" +
-	"\fOrderService\x121\n" +
-	"\n" +
-	"CreteOrder\x12\x17.api.CreateOrderRequest\x1a\n" +
+	"\x05Items\x18\x02 \x03(\v2\x16.api.ItemsWithQuantityR\x05Items2B\n" +
+	"\fOrderService\x122\n" +
+	"\vCreateOrder\x12\x17.api.CreateOrderRequest\x1a\n" +
 	".api.OrderB\fZ\n" +
 	"common/apib\x06proto3"
 
@@ -314,8 +313,8 @@ var file_api_micro_proto_goTypes = []any{
 var file_api_micro_proto_depIdxs = []int32{
 	1, // 0: api.Order.Items:type_name -> api.Item
 	2, // 1: api.CreateOrderRequest.Items:type_name -> api.ItemsWithQuantity
-	3, // 2: api.OrderService.CreteOrder:input_type -> api.CreateOrderRequest
-	0, // 3: api.OrderService.CreteOrder:output_type -> api.Order
+	3, // 2: api.OrderService.CreateOrder:input_type -> api.CreateOrderRequest
+	0, // 3: api.OrderService.CreateOrder:output_type -> api.Order
 	3, // [3:4] is the sub-list for method output_type
 	2, // [2:3] is the sub-list for method input_type
 	2, // [2:2] is the sub-list for extension type_name
