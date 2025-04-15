@@ -1,14 +1,16 @@
 package main
 
 import (
+	"common/api"
 	"net/http"
 )
 
 type handler struct {
+	client api.OrderServiceClient
 }
 
-func NewHandler() *handler {
-	return &handler{}
+func NewHandler(client api.OrderServiceClient) *handler {
+	return &handler{client}
 }
 
 func (h *handler) registerRoutes(mux *http.ServeMux) {
